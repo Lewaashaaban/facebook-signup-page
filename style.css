@@ -1,0 +1,35 @@
+body {
+    background-image: url("./WhatsApp\ Image\ 2023-01-31\ at\ 8.53.16\ PM\ \(1\).jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.form2 {
+    border: 2px solid rgb(139, 15, 15);
+    margin-top: 10px;
+    margin-right: 40px;
+    float: right;
+    padding: 30px;
+    padding-top: 10px;
+    font-size: xx-large;
+    height: 600px;
+    width: 40%;
+}
+
+
+
+#mainheader {
+    margin-top: none;
+    padding: 10px;
+    background-color: #1f3975;
+    width: 100%;
+}
+
+img {
+    font-size: 10px;
+    width: 54%;
+    height: 780px;
+}
