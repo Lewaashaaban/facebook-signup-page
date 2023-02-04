@@ -30,7 +30,6 @@ function fillDates() {
     }
 
     monthElt.innerHTML = "";
-    // prettier-ignore
     const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     months.forEach((month, i) => {
         const option = createElt(`<option value="${i + 1}">${month}</option>`);
