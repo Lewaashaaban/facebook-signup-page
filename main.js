@@ -33,7 +33,7 @@ function fillDates() {
     const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     months.forEach((month, i) => {
         const option = createElt(`<option value="${i + 1}">${month}</option>`);
-        if (i + 1 === current_month) option.selected = true;
+        if (i === current_month) option.selected = true;
         monthElt.appendChild(option);
     });
 
